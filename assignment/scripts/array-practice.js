@@ -147,9 +147,13 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
+let gemsSorted = gems.sort()
+console.log('Alphabetized gems', gemsSorted);
 
-gems.reverse();
+console.log('Gems reverse', gems.reverse());
 console.log('Now gems are:', gems);
+
+//// DONE
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
 //     that's made up of each value from the `gems` array, but separated by the
@@ -159,7 +163,9 @@ console.log('Now gems are:', gems);
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
 
-let gemString = ['Topaz' + and + 'Citrine' + and + 'Diamond' + and + 'Emerald' + and + 'Iolite' + and + 'Tanzanite'];
+const gemString = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
+console.log('Gems are now', gemString.join('\ and '));
+
 
 // 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines 
 //     the gems array with the colors array.
