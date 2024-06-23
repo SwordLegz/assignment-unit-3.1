@@ -112,7 +112,7 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      Don't forget! Use console.log to verify that the `colors`
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
-lastColor = ['teal'];
+let lastColor = colors.pop();
 colors.pop();
 console.log('Removed last color', colors);
 console.log('Removed teal from list and stored in its own variable');
